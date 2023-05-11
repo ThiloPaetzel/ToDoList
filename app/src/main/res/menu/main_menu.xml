@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Disconnect"
+        android:id="@+id/disconnect_menu"
+        android:icon="@drawable/baseline_logout_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Profile"
+        android:id="@+id/profile_menu"
+        android:icon="@drawable/baseline_person_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Share"
+        android:id="@+id/share_menu"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="always"/>
+    <item
+        android:title="Calendar"
+        android:id="@+id/calendar_menu"
+        android:icon="@drawable/baseline_calendar_month_24"
+        app:showAsAction="always"/>
+
+
+</menu>

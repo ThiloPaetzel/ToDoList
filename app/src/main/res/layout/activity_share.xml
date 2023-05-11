@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Titre de la page -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share_your_todo_list"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Champs de saisie de l'utilisateur -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTextView"
+        android:layout_marginTop="16dp"
+        android:hint="@string/email_to_share_with"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <!-- Bouton de partage -->
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameEditText"
+        android:layout_marginTop="16dp"
+        android:text="@string/share" />
+
+    <Button
+        android:id="@+id/yourShareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shareButton"
+        android:layout_marginTop="16dp"
+        android:text="See your shares" />
+
+</RelativeLayout>

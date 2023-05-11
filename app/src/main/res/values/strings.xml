@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="modify_email">Modify email</string>
+    <string name="new_email">New email</string>
+    <string name="save_new_email">Save new email</string>
+    <string name="modify_password">Modify Password</string>
+    <string name="ancient_password">Ancient Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="save_new_password">Save new password</string>
+    <string name="share">Share</string>
+    <string name="shared_username">Shared username</string>
+    <string name="share_your_todo_list">Share your todo list</string>
+    <string name="email_to_share_with">email to share with</string>
+    <string name="user_email">user email</string>
+</resources>
